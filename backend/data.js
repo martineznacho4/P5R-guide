@@ -204,6 +204,342 @@ const months = [
 		],
 	},
 
+	// --------------------
+	{
+		id: 3,
+		month: "june",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 4,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 5,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 6,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 7,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 8,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 9,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
+
+	{
+		id: 10,
+		month: "may",
+		days: [
+			{
+				date: 1,
+				content: {
+					day: "Buy the drink from the stand in Shibuya Underground Walkway Proficiency +1;Buy 1 Bio Nutrient from the Shibuya Underground Mall Flower Shop;Hang out with Ryuji;Chariot Rank 2;",
+					night: "Examine the TV for the Home Shopping Program:;Use the DVD in your room to watch Guy McVer Proficiency +2 and Proficiency Rank 2",
+				},
+			},
+			{
+				date: 2,
+				content: {
+					day: "Solve the crossword puzzle downstairs: answer “Golden” Knowledge +1;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 3,
+				content: {
+					day: "Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 4,
+				content: {
+					day: "Go to the Untouchable Airsoft Shop;Choose to look inside the bag Iwai gives you;Study at LeBlanc Knowledge +2",
+					night: null,
+				},
+			},
+			{
+				date: 5,
+				content: {
+					day: "Use Bio Nutrient on the plant in your room Kindness +2;Study at LeBlanc Knowledge +2.Fool rank 3",
+					night: null,
+				},
+			},
+		],
+	},
 
 ];
 

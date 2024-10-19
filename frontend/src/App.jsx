@@ -1,8 +1,12 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 
 import { useEffect, useState } from "react";
 import monthService from "./service/months";
+import april from "./assets/april.svg";
+import may from "./assets/may.svg";
+import june from "./assets/june.svg";
+
+const monthSVG = { april, may, june};
 
 const handleMonthSelection = (month, setters) => {
 	monthService.getMonth(month).then((result) => {
@@ -15,7 +19,46 @@ const handleMonthSelection = (month, setters) => {
 
 const Month = ({ month, setters }) => {
 	return (
-		<li onClick={() => handleMonthSelection(month, setters)}>{month}</li>
+		<div className="navbar">
+			<a	className="link-wrapper"onClick={() => handleMonthSelection(month, setters)}>
+				
+				<span className="fallback">Month</span>
+				<div className="img-wrapper">
+					<img className="normal" src={monthSVG[month]} alt="" />
+					<img className="active" src={monthSVG[month]} alt="" />
+				</div>
+
+				<div className="shape-wrapper">
+					<div className="shape red-fill jelly">
+						<svg
+							x="0px"
+							y="0px"
+							viewBox="0 0 108.1 47"
+							enableBackground="new 0 0 108.1 47"
+						>
+							<polygon
+								fill="#FF0000"
+								points="29.5,8.5 150.7,0 108.1,32.7 3.1,47 "
+							/>
+						</svg>
+					</div>
+
+					<div className="shape cyan-fill jelly">
+						<svg
+							x="0px"
+							y="0px"
+							viewBox="0 0 108.1 47"
+							enableBackground="new 0 0 108.1 47"
+						>
+							<polygon
+								fill="#00FFFF"
+								points="0.3,17 125.1,0 68.8,45.6 24.3,39 "
+							/>
+						</svg>
+					</div>
+				</div>
+			</a>
+		</div>
 	);
 };
 
@@ -49,14 +92,20 @@ const Day = ({ content, states, setters }) => {
 		<>
 			<ul>
 				{dayActivities.map((act) => (
-					<li key={act}> {act}</li>
+					<li key={act} className="activity">
+						{" "}
+						{act}
+					</li>
 				))}
 			</ul>
 
 			{nightActivities ? (
 				<ul>
 					{nightActivities.map((act) => (
-						<li key={act}> {act}</li>
+						<li key={act} className="activity">
+							{" "}
+							{act}
+						</li>
 					))}
 				</ul>
 			) : (
@@ -66,8 +115,15 @@ const Day = ({ content, states, setters }) => {
 			<div onClick={() => handleDayChange(states, setters)}>
 				Next -&gt;
 			</div>
+			<div onClick={() => handleBackMenu(states, setters)}>
+				back to main menu
+			</div>
 		</>
 	);
+};
+
+const handleBackMenu = (states, setters) => {
+	setters.setSelectedMonth(null);
 };
 
 const RenderMonth = ({ month, states, setters }) => {
