@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import monthService from "./service/months";
+
 import april from "./assets/april.svg";
 import may from "./assets/may.svg";
 import june from "./assets/june.svg";
@@ -9,8 +10,11 @@ import july from "./assets/july.svg";
 import august from "./assets/august.svg";
 import september from "./assets/september.svg";
 import october from "./assets/october.svg";
+import november from "./assets/november.svg";
+import december from "./assets/december.svg";
+import january from "./assets/january.svg";
 
-const monthSVG = { april, may, june, july,august,september,october};
+const monthSVG = { april, may, june, july,august,september,october,november,december,january};
 
 const handleMonthSelection = (month, setters) => {
 	monthService.getMonth(month).then((result) => {
@@ -23,6 +27,9 @@ const handleMonthSelection = (month, setters) => {
 
 const Month = ({ month, setters }) => {
 	return (
+		
+
+		
 		<div className="navbar">
 			<a	className="link-wrapper"onClick={() => handleMonthSelection(month, setters)}>
 				
@@ -63,6 +70,7 @@ const Month = ({ month, setters }) => {
 				</div>
 			</a>
 		</div>
+		
 	);
 };
 
@@ -93,10 +101,10 @@ const Day = ({ content, states, setters }) => {
 	}
 
 	return (
-		<>
+		<div>
 			<ul>
 				{dayActivities.map((act) => (
-					<li key={act} className="activity">
+					<li key={act} className="activity" >
 						{" "}
 						{act}
 					</li>
@@ -122,7 +130,7 @@ const Day = ({ content, states, setters }) => {
 			<div onClick={() => handleBackMenu(states, setters)}>
 				back to main menu
 			</div>
-		</>
+		</div>
 	);
 };
 
@@ -134,11 +142,14 @@ const RenderMonth = ({ month, states, setters }) => {
 	const day = month.days.find((day) => day.date === states.currentDay);
 
 	return (
-		<>
-			<div>{month.month}</div>
+		<div id="DayCard">
+			{/* <div>{month.month}</div> */}
+			{/* {day.date} */}
+
+			<img src={monthSVG[month.month]} alt="" />
 
 			<Day content={day.content} setters={setters} states={states} />
-		</>
+		</div>
 	);
 };
 
@@ -166,7 +177,7 @@ const App = () => {
 				/>
 			) : (
 				months.map((month) => (
-					<Month key={month} month={month} setters={setters} />
+					<Month key={month} month={month} setters={setters}/>
 				))
 			)}
 		</>
