@@ -249,7 +249,7 @@ const months = [
 
 	{
 		id: 4,
-		month: "may",
+		month: "july",
 		days: [
 			{
 				date: 1,
@@ -291,7 +291,7 @@ const months = [
 
 	{
 		id: 5,
-		month: "may",
+		month: "august",
 		days: [
 			{
 				date: 1,
@@ -333,7 +333,7 @@ const months = [
 
 	{
 		id: 6,
-		month: "may",
+		month: "september",
 		days: [
 			{
 				date: 1,
@@ -375,7 +375,7 @@ const months = [
 
 	{
 		id: 7,
-		month: "may",
+		month: "october",
 		days: [
 			{
 				date: 1,

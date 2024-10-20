@@ -5,8 +5,12 @@ import monthService from "./service/months";
 import april from "./assets/april.svg";
 import may from "./assets/may.svg";
 import june from "./assets/june.svg";
+import july from "./assets/july.svg";
+import august from "./assets/august.svg";
+import september from "./assets/september.svg";
+import october from "./assets/october.svg";
 
-const monthSVG = { april, may, june};
+const monthSVG = { april, may, june, july,august,september,october};
 
 const handleMonthSelection = (month, setters) => {
 	monthService.getMonth(month).then((result) => {
