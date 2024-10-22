@@ -1,21 +1,13 @@
-/* ee2326 */
-
 body {
 	background: #ee2326;
-	/* padding-top: 50px; */
-	/* height: 100vh; */
 	min-width: 425px;
 	margin: 0 auto;
-	/* overflow: visible; */
 }
 
-.body2{
+.body2 {
 	background: #1b1b1b;
-	/* padding-top: 50px; */
-	/* height: 100vh; */
 	min-width: 425px;
 	margin: 0 auto;
-	/* overflow: visible; */
 }
 
 .navbar {
@@ -187,13 +179,13 @@ body {
 		flex-direction: column;
 		gap: 20px;
 	}
-	
+
 	margin: 0 auto;
 	min-height: 100vh;
 	width: fit-content;
 	border-left: 100px solid #ee2326;
 	border-right: 100px solid #ee2326;
-	
+
 	background-color: #ee2326;
 }
 
@@ -202,17 +194,15 @@ body {
 		width: 15vw;
 		min-width: 200px;
 	}
-	.header{
+	.header {
 		display: flex;
 		justify-content: center;
 		background-color: #bb1b1d;
-
 	}
-	.monthImage{
+	.monthImage {
 		width: 25%;
 		max-height: 20vh;
 	}
-
 }
 
 .wrp {
@@ -231,7 +221,7 @@ body {
 	background-color: #e7e7e7;
 	padding: 10px;
 	clip-path: polygon(2% 15%, 100% 0, 96% 100%, 0% 95%);
-	
+
 	position: relative;
 
 	max-width: 800px;
@@ -245,9 +235,9 @@ body {
 	left: -5px;
 	width: calc(100%);
 	height: calc(100% + 10px);
-	background-color: #131313; /* Borde blanco */
+	background-color: #131313;
 	clip-path: polygon(3% 23%, 100% 12%, 96% 90%, 2% 83%);
-	z-index: -1; /* Detrás del contenido */
+	z-index: -1; 
 	box-sizing: border-box;
 }
 
@@ -257,5 +247,14 @@ ul {
 
 li {
 	list-style: none;
-	
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+
+	img {
+		height: 60px;
+	}
 }

@@ -13,9 +13,9 @@ const getNextMonth = (states, setters) => {
 };
 
 const handleDayChange = (states, setters) => {
-	if (states.selectedMonth.month === "april" && states.currentDay < 30) {
-		setters.setCurrentDay(states.currentDay + 1);
-	} else if (states.currentDay < states.selectedMonth.days.length) {
+	if (states.selectedMonth.month === "april" && states.currentDay < 30 ) {
+		setters.setCurrentDay(states.currentDay +1);
+	} else if (  states.currentDay < states.selectedMonth.days.length) {
 		setters.setCurrentDay(states.currentDay + 1);
 	} else {
 		setters.setCurrentDay(1);

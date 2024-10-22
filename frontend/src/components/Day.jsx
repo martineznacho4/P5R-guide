@@ -29,11 +29,18 @@ const Day = ({ content, states, setters, handlers }) => {
 				<></>
 			)}
 
-			<div onClick={() => handlers.handleDayChange(states, setters)}>
-				Next -&gt;
-			</div>
-			<div onClick={() => handlers.handleBackMenu(states, setters)}>
-				back to main menu
+			<div className="controls">
+				<img
+					src="src/assets/menu.svg"
+					alt=""
+					onClick={() => handlers.handleBackMenu(states, setters)}
+				/>
+
+				<img
+					src="src/assets/arrow.svg"
+					alt=""
+					onClick={() => handlers.handleDayChange(states, setters)}
+				/>
 			</div>
 		</div>
 	);
